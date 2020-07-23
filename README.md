@@ -1,24 +1,13 @@
-# README
+Post-install message from chromedriver-helper:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  +--------------------------------------------------------------------+
+  |                                                                    |
+  |  NOTICE: chromedriver-helper is deprecated after 2019-03-31.       |
+  |                                                                    |
+  |  Please update to use the 'webdrivers' gem instead.                |
+  |  See https://github.com/flavorjones/chromedriver-helper/issues/83  |
+  |                                                                    |
+  +--------------------------------------------------------------------+
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Okta practice from this post:
+https://medium.com/@abhisheksp/integrating-your-rails-application-with-okta-2e77ebe02528
