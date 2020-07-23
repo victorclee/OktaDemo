@@ -1,4 +1,4 @@
-Post-install message from chromedriver-helper:
+Post-install message from chromedriver-helper:  
 
   +--------------------------------------------------------------------+
   |                                                                    |
@@ -8,6 +8,9 @@ Post-install message from chromedriver-helper:
   |  See https://github.com/flavorjones/chromedriver-helper/issues/83  |
   |                                                                    |
   +--------------------------------------------------------------------+
-
-Okta practice from this post:
+  
+Okta practice from this post:  
 https://medium.com/@abhisheksp/integrating-your-rails-application-with-okta-2e77ebe02528
+
+TIL:  
+OIDC or SAML2?
