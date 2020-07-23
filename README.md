@@ -34,7 +34,8 @@ In a SAML integration, Okta is the Identity Provider (IdP), and your application
 3. (Optional). Set up a Default Relay State page, where users land after they successfully sign in to the SP using SAML. This must be a valid URL.
 4. Gather any required SAML attributes. You can choose to share Okta user profile field values as SAML attributes with your application.
 Note: SAML integrations must use SHA256 encryption for security. If you are using SHA-1 for encryption, see our guide on how to [Upgrade SAML Apps to SHA256](https://developer.okta.com/docs/guides/updating-saml-cert/overview/).<br>
-<br>
+
+
 **Rails session**\
 https://www.justinweiss.com/articles/how-rails-sessions-work/ \
 \
