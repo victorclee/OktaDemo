@@ -20,7 +20,7 @@ class SamlController < ApplicationController
   private
   def saml_settings
     idp_metadata_parser = OneLogin::RubySaml::IdpMetadataParser.new
-    settings = idp_metadata_parser.parse(Rails.application.credentials.idp_metadata)
+    settings = idp_metadata_parser.parse_remote(Rails.application.credentials.idp_metadata)
     settings.assertion_consumer_service_url = "http://localhost:3000/saml/consume"
     settings.issuer = 'http://localhost:3000/saml/consume'
     settings
