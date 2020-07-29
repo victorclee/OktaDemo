@@ -3,7 +3,6 @@ class SamlController < ApplicationController
   def init
     request = OneLogin::RubySaml::Authrequest.new
     redirect_to(request.create(saml_settings))
-    debugger
   end
 
   def consume
@@ -15,8 +14,6 @@ class SamlController < ApplicationController
       redirect_to root_path
     else
       redirect_to(request.create(saml_settings))
-      debugger
-      
     end
   end
 
